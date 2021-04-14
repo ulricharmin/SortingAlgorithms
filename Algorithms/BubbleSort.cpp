@@ -13,7 +13,7 @@ void swap(vector<int>& nums, int a) {
 	nums.at(a + 1) = temp;
 }
 
-// Checks if next number in vector is greater than thee current one. If so, done should be set to false and swap gets called.
+// Checks if next number in vector is greater than the current one. If so, done should be set to false and swap gets called.
 void bubbleSort(vector<int>& nums) {
 	bool done = false;
 	while (!done) {
