@@ -16,7 +16,7 @@ void swap(int* a, int* b) {
 * Our Vector: 52, 24, 10, 15, 63, 30;
 * pivot = end = 5; // last element
 * j = start = 0; //first element
-	1. compare first element with pivot. If the current element is smaller than our pivot, we swapp it.
+	1. compare first element with pivot. If the current element is smaller than our pivot, we swap it.
 		In this case, the vector after the first swap looks like this: 24, 52, 10, 15, 63, 30.
 		Thats because we skipped increasing "j" one time so it still is 0 while "i" is already 1 (swap 0 with 1).
 		Now we count "j" up by one. j = 1; i = 2;
